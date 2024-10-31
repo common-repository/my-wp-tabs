@@ -1,0 +1,148 @@
+
+
+@import url("all.css");
+
+
+.tab-holder{
+	border:1px solid #eaeaea;
+}
+.tab-holder .tabs{
+	height:39px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+.tab-holder .tabs li{
+	margin:0;
+	padding:0;
+	border-right:1px solid #d9d9d9 !important;
+	height:39px;
+	float:left;
+}
+.tab-holder .tabs li a{
+	background:url(images/tab-bg.png) repeat-x top left !important;
+	border:0 !important;
+	height:39px !important;
+	line-height:39px !important;
+	font:13px/39px 'MuseoSlab500Regular', arial, helvetica, sans-serif !important;
+	text-indent:0 !important;
+	color:#333333 !important;
+	padding:0 15px !important;
+	border-bottom:1px solid #dcdcdc !important;
+}
+.tab-holder .tabs li:last-child{
+	border-right:0 !important;
+}
+.tab-holder .tabs li:last-child a{
+	width:100% !important;
+}
+.tab-holder .tabs li.active a{
+	background:none !important;
+	border-top:3px solid #84c650 !important;
+	height:36px !important;
+	line-height:36px !important;
+	border-bottom:0 !important;
+}
+.tab-holder .tabs li img{
+	margin-top:9px;
+}
+.tab-holder .news-list{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.tab-holder .news-list li{
+	border-bottom:1px solid #e2e2e2;
+	padding:20px 15px !important;
+	overflow:hidden;
+}
+.tab-holder .news-list li a{
+	background:none !important;
+	padding:0 !important;
+}
+.tab-holder .news-list li:last-child{
+	border-bottom:0;
+}
+.tab-holder .news-list .post-holder a{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background:none !important;
+	border:0 !important;
+	text-indent:0 !important;
+	height:auto !important;
+	line-height:normal !important;
+}
+.tab-holder .news-list li .image{
+	float:left;
+	margin-right:13px;
+}
+.tab-holder .news-list li .post-holder{
+}
+.tab-holder .news-list li .post-holder a{
+	color:#444444 !important;
+	font-size:13px !important;
+	line-height:17px !important;
+}
+.tab-holder .news-list li .post-holder p {
+	margin:0;
+	margin-bottom:5px;
+}
+.tab-holder .news-list li .post-holder .meta{
+	margin:0;
+	margin-top:2px;
+	font-size:12px !important;
+	color:#747474 !important;
+}
+.tab-holder .news-list li .post-holder .meta em{
+	font-style:normal !important;
+	font-size:12px !important;
+	color:#747474 !important;
+}
+.tab-holder .news-list li .post-holder .comment-text-side{
+	line-height:16px !important;
+}
+
+.shortcode-tabs .tab-hold .tabs li{
+	border-right:0 !important;
+}
+.shortcode-tabs .tab-hold .tabs li a{background: url("images/shortcode_sep.png") no-repeat scroll right center, url("images/tab-bg.png") repeat-x scroll left top rgba(0, 0, 0, 0) !important;
+display: block !important;
+padding-bottom: 0 !important;
+padding-left: 0 !important;
+padding-right: 5px;
+padding-top: 0 !important;
+text-indent: 15px !important;
+width: 100% !important;
+}
+.shortcode-tabs .tab-hold .tabs li:last-child a{
+	background:
+	url(images/tab-bg.png) repeat-x top left !important;	
+}
+.shortcode-tabs .tab-hold .tabs li.active a{
+	background:none !important;
+}
+.shortcode-tabs .tab_content{
+	padding:15px !important;
+	overflow:hidden;
+}
+.shortcode-tabs .tab_content *:last-child{
+	margin-bottom:0;
+}
+.shortcode-tabs{
+	margin-bottom:50px;
+}
+
+.tabs-vertical{border:0px;}
+.tabs-vertical .tabset{border-left:1px solid #d3d3d3;border-top:1px solid #d3d3d3;border-bottom:1px solid #d3d3d3;width:15.7446808511%;float:left;height:auto;position:relative;left:1px;z-index:10;}
+.tabs-vertical .tab-hold .tabset li{float:none !important;width:auto;height:auto;border:0;background:none !important;}
+.tabs-vertical .tab-hold .tabset li a,.tabs-vertical .tab-hold .tabset li:last-child a{background:url(images/tab-bg.png) !important;border-bottom:0 !important;}
+.tabs-vertical .tab-hold .tabset li a{width:auto !important;text-indent:0 !important;border-bottom:1px solid #d3d3d3 !important;height:auto !important;line-height:normal !important;padding:10px !important;}
+.tabs-vertical .tab-hold .tabset li a:hover{}
+.tabs-vertical .tab-hold .tabset li.active a{background:#fff !important;border-width:0px !important;border-style:solid !important;border-left-width:3px !important;height:auto !important;line-height:normal !important;}
+.tabs-vertical .tabs-container{width:83.9361702128%;float:left;}
+.tabs-vertical .tabs-container .tab_content{border:1px solid #d3d3d3;padding:30px !important;}
+
+.portfolio-grid{margin-bottom:80px !important;}
+.portfolio-grid .portfolio-tabs{margin-top:0 !important;}
